@@ -3,6 +3,7 @@
 namespace over; 
 
 use pocketmine\plugin\PluginBase;
+use pocketmine\event\player\PlayerGameModeChangeEvent;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\command\ConsoleCommandSender;
