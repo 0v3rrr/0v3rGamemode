@@ -18,13 +18,15 @@ $this->getLogger()->info("[PLUGIN 0v3rCore ON]");
 
 public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args): bool{
 
+  $player = $this->getServer()->getPlayer($sender->getName());
+
 
 switch($cmd->getName()){
 
 	case "gm0":
 		if($sender->hasPermission("overgm0.cmd")){
 		$sender->sendMessage("§7[§cOv3r§aGamemode§7] Vous avez été mis en Gamemode: survie.");
-		$sender->setGamemode(0);
+		$player->setGamemode(0);
 		}else{
 		$sender->sendMessage("§7[§c0v3r§aGamemode§7] §cErreur vous n'avez pas la permission.");
 		}
@@ -32,7 +34,7 @@ switch($cmd->getName()){
 	case "gm1":
 		if($sender->hasPermission("overgm0.cmd")){
 		$sender->sendMessage("§7[§cOv3r§aGamemode§7] Vous avez été mis en Gamemode: créatif");
-		$sender->setGamemode(1);
+		$player->setGamemode(1);
 		}else{
 		$sender->sendMessage("§7[§c0v3r§aGamemode§7] §cErreur vous n'avez pas la permission.");
 		}
@@ -40,7 +42,7 @@ switch($cmd->getName()){
 	case "gm2":
 		if($sender->hasPermission("overgm0.cmd")){
 		$sender->sendMessage("§7[§cOv3r§aGamemode§7] Vous avez été mis en Gamemode: aventure.");
-		$sender->setGamemode(2);
+		$player->setGamemode(2);
 		}else{
 		$sender->sendMessage("§7[§c0v3r§aGamemode§7] §cErreur vous n'avez pas la permission.");
 		}
@@ -48,7 +50,7 @@ switch($cmd->getName()){
 	case "gm3":
 		if($sender->hasPermission("overgm0.cmd")){
 		$sender->sendMessage("§7[§cOv3r§aGamemode§7] Vous avez été mis en Gamemode: spectateur.");
-		$sender->setGamemode(3);
+		$player->setGamemode(3);
 		}else{
 		$sender->sendMessage("§7[§c0v3r§aGamemode§7] §cErreur vous n'avez pas la permission.");
 		}
