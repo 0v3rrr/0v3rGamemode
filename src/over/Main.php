@@ -7,8 +7,9 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\utils\TextFormat;
 use pocketmine\Player;
+use pocketmine\event\Listener;
 
-class Main extends PluginBase{
+class Main extends PluginBase implements Listener{
 
 public function onEnable()
 {
@@ -25,7 +26,7 @@ public function onCommand(CommandSender $sender, Command $cmd, string $label, ar
 
 switch($cmd->getName()){
 
-	case: "gm0"
+	case "gm0":
 	
 	if($sender instanceof Player){
 	if($sender->hasPermission("overgm0.cmd")){
@@ -36,7 +37,7 @@ switch($cmd->getName()){
 	}
 	}break;
 	
-	case: "gm1"
+	case "gm1":
 	
 	if($sender instanceof Player){
 	if($sender->hasPermission("overgm1.cmd")){
@@ -47,7 +48,7 @@ switch($cmd->getName()){
 	}
 	}break;
 	
-	case: "gm2"
+	case "gm2":
 	
 	if($sender instanceof Player){
 	if($sender->hasPermission("overgm2.cmd")){
@@ -58,7 +59,7 @@ switch($cmd->getName()){
 	}
 	}break;
 	
-	case: "gm3"
+	case "gm3":
 	
 	if($sender instanceof Player){
 	if($sender->hasPermission("overgm3.cmd")){
