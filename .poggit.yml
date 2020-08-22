@@ -4,6 +4,6 @@ branches:
 - master
 - dev
 projects:
-  0v3rGamemode:
+  over:
     path: ""
 ...
