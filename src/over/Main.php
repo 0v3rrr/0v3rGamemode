@@ -70,7 +70,6 @@ switch($cmd->getName()){
 	}break;
 	
 }
-return true;
 
 }
 
