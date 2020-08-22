@@ -7,9 +7,8 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\utils\TextFormat;
 use pocketmine\Player;
-use pocketmine\event\Listener;
 
-class Main extends PluginBase implements Listener{
+class Main extends PluginBase{
 
 public function onEnable()
 {
@@ -77,5 +76,3 @@ return true;
 
 }
 
-
->
