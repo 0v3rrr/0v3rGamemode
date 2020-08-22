@@ -22,7 +22,7 @@ public function onCommand(CommandSender $sender, Command $cmd, string $label, ar
 switch($cmd->getName()){
 
 	case "gm0":
-		if ($sender->hasPermission("overgm0.cmd")){
+		if($sender->hasPermission("overgm0.cmd")){
 		$sender->sendMessage("§7[§cOv3r§aGamemode§7] Vous avez été mis en Gamemode: survie.");
 		$sender->setGamemode(0);
 		}else{
@@ -30,7 +30,7 @@ switch($cmd->getName()){
 		}
 	break;
 	case "gm1":
-		if ($sender->hasPermission("overgm0.cmd")){
+		if($sender->hasPermission("overgm0.cmd")){
 		$sender->sendMessage("§7[§cOv3r§aGamemode§7] Vous avez été mis en Gamemode: créatif");
 		$sender->setGamemode(1);
 		}else{
@@ -38,7 +38,7 @@ switch($cmd->getName()){
 		}
 	break;
 	case "gm2":
-		if ($sender->hasPermission("overgm0.cmd")){
+		if($sender->hasPermission("overgm0.cmd")){
 		$sender->sendMessage("§7[§cOv3r§aGamemode§7] Vous avez été mis en Gamemode: aventure.");
 		$sender->setGamemode(2);
 		}else{
@@ -46,7 +46,7 @@ switch($cmd->getName()){
 		}
 	break;
 	case "gm3":
-		if ($sender->hasPermission("overgm0.cmd")){
+		if($sender->hasPermission("overgm0.cmd")){
 		$sender->sendMessage("§7[§cOv3r§aGamemode§7] Vous avez été mis en Gamemode: spectateur.");
 		$sender->setGamemode(3);
 		}else{
