@@ -3,7 +3,6 @@ version: 1.0.1
 api: [3.15.0]
 main: over\Main
 author: 0v3r
-
 commands:
        gm0:
 	description: §7[§c0v3r§bGamemode§7] : 0v3r Gamemode: Survie
