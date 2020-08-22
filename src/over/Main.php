@@ -16,10 +16,6 @@ public function onEnable(){
 $this->getLogger()->info("[PLUGIN 0v3rCore ON]");
 }
 
-public function onDisable(){
-$this->getLogger()->info("[PLUGIN 0v3rCore OFF]");
-}
-
 public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args): bool{
 
 
