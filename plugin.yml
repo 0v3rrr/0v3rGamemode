@@ -4,15 +4,15 @@ api: [3.15.0]
 main: over\Main
 author: 0v3r
 commands:
-gm0:
- description: §7[§c0v3r§bGamemode§7] : 0v3r Gamemode: Survie
- permission: overgm0.cmd
-gm1:
- description: §7[§c0v3r§bGamemode§7] : 0v3r Gamemode: Creatif
- permission: overgm1.cmd
-gm2:
- description: §7[§c0v3r§bGamemode§7] : 0v3r Gamemode: Aventure
- permission: overgm2.cmd
-gm3:
- description: §7[§c0v3r§bGamemode§7] : 0v3r Gamemode: Spectateur
- permission: overgm3.cmd
+ gm0:
+  description: §7[§c0v3r§bGamemode§7] : 0v3r Gamemode: Survie
+  permission: overgm0.cmd
+ gm1:
+  description: §7[§c0v3r§bGamemode§7] : 0v3r Gamemode: Creatif
+  permission: overgm1.cmd
+ gm2:
+  description: §7[§c0v3r§bGamemode§7] : 0v3r Gamemode: Aventure
+  permission: overgm2.cmd
+ gm3:
+  description: §7[§c0v3r§bGamemode§7] : 0v3r Gamemode: Spectateur
+  permission: overgm3.cmd
