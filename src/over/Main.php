@@ -5,7 +5,7 @@ namespace Main;
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
-use pocketmine\command\ConsoleCommandSenser;
+use pocketmine\command\ConsoleCommandSender;
 use pocketmine\utils\TextFormat;
 use pocketmine\Player;
 use pocketmine\event\Listener;
