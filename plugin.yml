@@ -1,4 +1,4 @@
-name: 0v3rCoreJoin
+name: 0v3rCoreGamemode
 main: over\Main
 api: [3.15.0]
 version: 1.0.0
