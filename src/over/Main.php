@@ -28,7 +28,7 @@ switch($cmd->getName()){
 	case: "gm0"
 	
 	if($sender instanceof Player){
-	if($sender->hasPermission("overgm0.cmd")){
+	if ($sender->hasPermission("overgm0.cmd")){
 	$sender->sendMessage("§7[§cOv3r§aGamemode§7] Vous avez été mis en Gamemode: survie.");
 	$sender->sendGamemode(0);
 	}else{
@@ -39,7 +39,7 @@ switch($cmd->getName()){
 	case: "gm1"
 	
 	if($sender instanceof Player){
-	if($sender->hasPermission("overgm1.cmd")){
+	if ($sender->hasPermission("overgm1.cmd")){
 	$sender->sendMessage("§7[§cOv3r§aGamemode§7] Vous avez été mis en Gamemode: créatif.");
 	$sender->sendGamemode(1);
 	}else{
@@ -50,7 +50,7 @@ switch($cmd->getName()){
 	case: "gm2"
 	
 	if($sender instanceof Player){
-	if($sender->hasPermission("overgm2.cmd")){
+	if ($sender->hasPermission("overgm2.cmd")){
 	$sender->sendMessage("§7[§cOv3r§aGamemode§7] Vous avez été mis en Gamemode: aventure.");
 	$sender->sendGamemode(2);
 	}else{
@@ -61,7 +61,7 @@ switch($cmd->getName()){
 	case: "gm3"
 	
 	if($sender instanceof Player){
-	if($sender->hasPermission("overgm3.cmd")){
+	if ($sender->hasPermission("overgm3.cmd")){
 	$sender->sendMessage("§7[§cOv3r§aGamemode§7] Vous avez été mis en Gamemode: spectateur.");
 	$sender->sendGamemode(3);
 	}else{
