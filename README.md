@@ -3,7 +3,8 @@
 Plugin FR
 
 Code par 0v3r
-Mon Discord:
+
+Mon Discord: | Øv3r |#6135
 
 Liste des Commandes et des Permissions:
 
